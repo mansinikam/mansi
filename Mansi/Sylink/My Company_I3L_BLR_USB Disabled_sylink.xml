@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ServerSettings DomainId="4E75DDDF0A060EFD01445D2868651EEB" NameSpace="rpc">
+  <CommConf>
+    <AgentCommunicationSetting AllowClientUploadCriticalEventImmediately="1" AlwaysConnect="1" CommunicationMode="PULL" DisableDownloadProfile="0" Kcs="A9259ED1A4AE2927E8CBB3F33EC9948E" PullHeartbeatSeconds="1800" RandomizationEnabled="1" RandomizationRange="1800" RememberCurrentGroup="0" RememberCurrentPolicyMode="1" UploadCmdStateHeartbeatSeconds="300" UploadLearnedApp="0" UploadLogHeartbeatSeconds="300" UploadOpStateHeartbeatSeconds="300"/>
+    <ServerList Name="In-Office Management Server List">
+      <ServerPriorityBlock Name="Priority1">
+        <Server Address="10.6.14.253" HttpPort="8014" HttpsVerifyCA="0" VerifySignatures="1"/>
+        <Server Address="i3lsepsrv" HttpPort="8014" HttpsVerifyCA="0" VerifySignatures="1"/>
+        <Server Address="i3lsepsrv.itcinfotech.com" HttpPort="8014" HttpsVerifyCA="0" VerifySignatures="1"/>
+      </ServerPriorityBlock>
+      <ServerPriorityBlock Name="Priority2">
+        <Server Address="192.168.240.164" HttpPort="443" HttpsVerifyCA="0" VerifySignatures="1"/>
+        <Server Address="I3LSEPSRV1" HttpPort="443" HttpsVerifyCA="0" VerifySignatures="1"/>
+        <Server Address="i3lsepsrv1.itcinfotech.com" HttpPort="443" HttpsVerifyCA="0" VerifySignatures="1"/>
+        <Server Address="14.143.0.106" HttpPort="443" HttpsVerifyCA="0" VerifySignatures="1"/>
+      </ServerPriorityBlock>
+    </ServerList>
+    <ServerCertList>
+      <Certificate Name="i3lsepsrv">-----BEGIN CERTIFICATE-----
+MIICQTCCAaqgAwIBAgIETCHxfzANBgkqhkiG9w0BAQUFADBlMQswCQYDVQQGEwJVUzELMAkGA1UE&#13;
+CBMCQ0ExEDAOBgNVBAcTB0ZyZW1vbnQxFTATBgNVBAoTDHN5bWFudGVjLmNvbTEMMAoGA1UECxMD&#13;
+c2NtMRIwEAYDVQQDEwlJM0xTRVBTUlYwHhcNMTAwNjIzMTEzNTI3WhcNMjAwNjIwMTEzNTI3WjBl&#13;
+MQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExEDAOBgNVBAcTB0ZyZW1vbnQxFTATBgNVBAoTDHN5&#13;
+bWFudGVjLmNvbTEMMAoGA1UECxMDc2NtMRIwEAYDVQQDEwlJM0xTRVBTUlYwgZ8wDQYJKoZIhvcN&#13;
+AQEBBQADgY0AMIGJAoGBAIMAv8MkxlB8/nToMT1Q2IqGtd7Yue8Xk5ivBFXVKGFi4eTAoQuVtn3X&#13;
+Qq1BFY2IeOFEy8DQsGuLVPBXe9CfHMxrYtuN7yQnoTiOP9CIWLjySh+o4Oz+HBkQJ6jcZP8tt4L3&#13;
+Cf+PUxAPwd/pbzKiS/jlnHphU3slgftDFS3PqhTlAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAJCt4&#13;
+hY+gBcjaah+e4/mkLo/94w9VS1kt2UXC5ZorGS+hITECwCes8BeH7/AX6Ag/PpSKdZnROQSPgbCP&#13;
+ho8OdZEB8btX3F5mHDBXfyCMLC/NlI2Dwed1mE2tcXPZ8PQZfKjfi5WP2ygoLsiQW31K0GkOwiRl&#13;
+AETMBHzMAwrpTOo=&#13;
+-----END CERTIFICATE-----</Certificate>
+      <Certificate Name="I3LSEPSRV1">-----BEGIN CERTIFICATE-----
+MIIC9DCCAl2gAwIBAgIQ0s+0yXifMxQGPfA+zUWKjzANBgkqhkiG9w0BAQsFADB6MXgwCQYDVQQG&#13;
+EwJVUzAJBgNVBAgMAkNBMAoGA1UECwwDRVNHMBQGA1UEBwwNTW91bnRhaW4gVmlldzAbBgNVBAoM&#13;
+FFN5bWFudGVjIENvcnBvcmF0aW9uMCEGA1UEAwwaSTNMU0VQU1JWMS5JVENJTkZPVEVDSC5jb20w&#13;
+HhcNMTgwMjA3MTQyOTEyWhcNMjgwMzA2MTQyOTEyWjB6MXgwCQYDVQQGEwJVUzAJBgNVBAgMAkNB&#13;
+MAoGA1UECwwDRVNHMBQGA1UEBwwNTW91bnRhaW4gVmlldzAbBgNVBAoMFFN5bWFudGVjIENvcnBv&#13;
+cmF0aW9uMCEGA1UEAwwaSTNMU0VQU1JWMS5JVENJTkZPVEVDSC5jb20wgZ8wDQYJKoZIhvcNAQEB&#13;
+BQADgY0AMIGJAoGBAKlgEiMHAMUpc0rCzDarmp3OZjg1awfopKLT0eOaPjAKQn3nGrgQ2y8wupAj&#13;
+PMUCVgOBEJpVVq2OUIsSHPEMkhu4xQZ7n6KjgNtRQl4CyjDNzOkZh5g7tm0XS39VGk6MvKY4mw8N&#13;
+N2zQDOTZee7NRAnu2Z5bnabtksPp8A9d6wl/AgMBAAGjezB5MHcGA1UdEQRwMG6CGkkzTFNFUFNS&#13;
+VjEuSVRDSU5GT1RFQ0guY29tggpJM0xTRVBTUlYxhwTAqPCkgg8xOTIuMTY4LjI0MC4xNjSHEP6A&#13;
+AAAAAAAAAABe/sCo8KSCG2ZlODA6MDowOjA6MDo1ZWZlOmMwYTg6ZjBhNDANBgkqhkiG9w0BAQsF&#13;
+AAOBgQBhrSXcw7kfJpwwcQxV/OtUxE9rJoRfRZi0KX2k9kjuCz5KXiU2cHxzdpqgJTuddC3Az5KF&#13;
+vYtVUMmb5PyOCdeTX/Hc2LsX5/3CL87W9B9j93+hMDGn8mBiQNobooxyi7aqUhNGJURAwEn42hJ9&#13;
+YU0Kkz+1uQ7L6sZEN3PY1Kzcfw==&#13;
+-----END CERTIFICATE-----</Certificate>
+    </ServerCertList>
+    <LogSetting MaxLogRecords="100" SendingLogAllowed="1" UploadProcessLog="1" UploadRawLog="1" UploadSecurityLog="1" UploadSystemLog="1" UploadTrafficLog="1"/>
+    <RegisterClient PreferredGroup="My Company\I3L\BLR\USB Disabled" PreferredMode="1"/>
+  </CommConf>
+</ServerSettings>
